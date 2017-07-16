@@ -1,1 +1,3 @@
-node default { }
+node profile::base { 
+  class { 'npt': }
+}
